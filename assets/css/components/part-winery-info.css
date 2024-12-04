@@ -65,7 +65,7 @@
 }
 
 .wineryInfo__text {
-  font-family: var(--familyYuMincho);
+  font-family: var(--familyNotoSerifJP);
   font-size: var(--fontMax16Min14);
   font-weight: 300;
   line-height: 2.22;
