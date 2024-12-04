@@ -44,7 +44,7 @@
 }
 
 .recruitTop__text--box {
-  font-family: var(--familyYuMincho);
+  font-family: var(--familyNotoSerifJP);
   font-size: var(--fontMax18Min16);
   margin: 0 auto;
   max-width: 900px;
@@ -170,6 +170,7 @@
 }
 
 .recruit__table {
+  font-family: var(--familyNotoSerifJP);
   width: 100%;
 }
 
@@ -237,6 +238,7 @@
 }
 
 .recruit__other--content {
+  font-family: var(--familyNotoSerifJP);
   font-size: var(--fontMax18Min16);
   font-weight: 300;
   line-height: 1.67;
