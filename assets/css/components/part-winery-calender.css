@@ -1,0 +1,26 @@
+.wineryCalender {
+  padding-top: 170px;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .wineryCalender {
+    padding-top: 50px;
+  }
+}
+
+.wineryCalender__title {
+  background-color: #dfdfdf;
+  font-family: var(--familyYuMincho);
+  font-size: var(--fontMax24Min18);
+  font-weight: 600;
+  letter-spacing: 0.108em;
+  line-height: 1.21;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.wineryCalender__date iframe {
+	width: 100%;
+}

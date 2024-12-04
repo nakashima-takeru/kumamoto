@@ -1,0 +1,126 @@
+.specialList {
+    padding: 304px 0 167px;
+}
+
+.specialList__group {
+    display: grid;
+    gap: 105px 44px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 115px 0 95px;
+}
+
+.specialList__group {
+    margin-top: 196px;
+}
+
+.specialList__title {
+    color: var(--colorBase);
+    font-family: var(--familyYuGothic);
+    font-size: var(--fontMax18Min16);
+    font-weight: 400;
+    line-height: 1.67;
+    margin-top: 15.5px;
+    padding-left: 18px;
+    position: relative;
+}
+
+.specialList__title::before {
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    content: "";
+    height: 8px;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 10px;
+    transform: rotate(45deg);
+    width: 8px;
+}
+
+/* pageNavi */
+.wp-pagenavi {
+    display: flex;
+    justify-content: center;
+    margin-top: 197px;
+}
+
+.wp-pagenavi .current,
+.wp-pagenavi .page,
+.wp-pagenavi .previouspostslink,
+.wp-pagenavi .nextpostslink {
+    border: none;
+    color: var(--colorGray);
+    font-family: var(--familyYuMincho);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.previouspostslink,
+.nextpostslink {
+    display: flex;
+    gap: 36px;
+}
+
+.wp-pagenavi .previouspostslink::before {
+    border-bottom: 1px solid var(--colorGray);
+    border-left: 1px solid var(--colorGray);
+    content: "";
+    display: inline-block;
+    height: 12px;
+    margin: 0 10px;
+    transform: rotate(45deg);
+    width: 12px;
+}
+
+.wp-pagenavi .nextpostslink::after {
+    border-right: 1px solid var(--colorGray);
+    border-top: 1px solid var(--colorGray);
+    content: "";
+    display: inline-block;
+    height: 12px;
+    margin: 0 10px;
+    transform: rotate(45deg);
+    width: 12px;
+}
+
+.wp-pagenavi a,
+.wp-pagenavi span {
+    margin: 0 30px !important;
+}
+
+.specialList__img {
+    height: 100%;
+    max-height: 208px;
+}
+
+.specialList__img img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media screen and (max-width: 1160px) {
+    .specialList__group {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .specialList {
+        padding: 150px 0 84px;
+    }
+
+    .specialList__group {
+        grid-template-columns: 1fr;
+        margin-top: 98px;
+    }
+
+    .specialList__group {
+        gap: 30px 0;
+    }
+
+    .wp-pagenavi a,
+    .wp-pagenavi span {
+        margin: 0 8px !important;
+    }
+}

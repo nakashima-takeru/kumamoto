@@ -1,0 +1,380 @@
+.form {
+    padding-top: 304px;
+}
+
+.form .contact__group {
+    display: grid;
+    gap: 51px 0;
+}
+
+.form__lead {
+    color: var(--colorGray);
+    font-family: var(--familyYuMincho);
+    font-size: var(--fontMax18Min16);
+    font-weight: 300;
+    line-height: 2.2;
+    margin-top: 146px;
+    text-align: center;
+}
+
+.formConfirm .form__lead {
+    text-align: center;
+}
+
+.form__lead.is-thanks {
+    margin-bottom: 418px;
+}
+
+.form__box {
+    margin: 73px auto 140px;
+    max-width: 1040px;
+}
+
+.formConfirm .form__box {
+    max-width: 1020px;
+}
+
+.form__row p {
+    align-items: center;
+    color: var(--colorGray);
+    display: flex;
+    font-family: var(--familyYuMincho);
+    font-size: var(--fontMax20Min18);
+    font-weight: 400;
+    grid-template-columns: 240px auto;
+}
+
+.formConfirm .form__row p {
+    align-items: flex-end;
+}
+
+.form__label {
+    align-items: center;
+    color: var(--colorGray);
+    display: flex;
+    font-family: var(--familyYuMincho);
+    font-size: var(--fontMax20Min18);
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    max-width: 240px;
+    width: 100%;
+}
+
+.form__required {
+    color: var(--colorRed);
+    font-size: 13px;
+    margin-left: 11px;
+}
+
+.wpcf7-form {
+    display: grid;
+    gap: 51px 0;
+}
+
+.wpcf7-form-control {
+    border: 1px solid var(--colorGray);
+    color: var(--colorGray);
+    font-family: var(--familyYuMincho);
+    font-size: var(--fontMax20Min18);
+    font-weight: 400;
+    height: 54px;
+    padding: 15px 21px 13px 22px;
+    width: 100%;
+}
+
+.form__select {
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+}
+
+.wpcf7-form-control-wrap {
+    width: 100%;
+}
+
+.wpcf7-form-control-wrap:has(.form__select) {
+    position: relative;
+}
+
+.wpcf7-form-control-wrap:has(.form__select)::after {
+    border-bottom: 1px solid var(--colorGray);
+    border-right: 1px solid var(--colorGray);
+    content: "";
+    display: inline-block;
+    height: 10px;
+    position: absolute;
+    right: 10px;
+    top: calc(50% - 5px); /* 中央寄せ */
+    transform: rotate(45deg);
+    width: 10px;
+}
+
+.form__tel--column {
+    display: grid;
+    gap: 36px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 462px;
+}
+
+.form__tel--column.is-confirm {
+    width: 156px;
+}
+
+.form__tel--column label {
+    position: relative;
+}
+
+.form__tel--column label:not(:last-child)::after {
+    background-color: #707070;
+    content: "";
+    height: 1px;
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 11px;
+}
+
+.wpcf7-textarea {
+    box-sizing: border-box;
+    height: 256px;
+    width: 100%;
+}
+
+.wpcf7-acceptance {
+    border: none;
+    color: var(--colorGray);
+    font-family: var(--familyYuMincho);
+    font-size: var(--fontMax16Min14);
+    font-weight: 400;
+}
+
+.wpcf7-acceptance a {
+    border-bottom: 1px solid #707070;
+    color: #707070;
+    padding-bottom: 4px;
+}
+
+.wpcf7-acceptance label {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    gap: 0 12px;
+}
+
+.wpcf7-acceptance label:has(input[type="checkbox"]) {
+    position: relative;
+}
+
+.wpcf7-acceptance label input[type="checkbox"] {
+    opacity: 0;
+}
+
+.wpcf7-acceptance label:has(input[type="checkbox"])::before {
+    border: 1px solid #dcdcdc;
+    content: "";
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+}
+
+.wpcf7-acceptance label:has(input[type="checkbox"])::after {
+    background: url(../../images/contact/icon-check.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    height: 10px;
+    left: 4px;
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    transition: opacity 0.3s ease-in-out;
+    width: 12px;
+}
+
+.wpcf7-acceptance label:has(input[type="checkbox"]:checked)::after {
+    opacity: 1;
+}
+
+.form__center {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.form__submit {
+    margin-top: 2px;
+}
+
+.wpcf7-submit.confirm__submit {
+    margin-top: 80px;
+}
+
+.wpcf7-submit {
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    width: 100%;
+}
+
+.wpcf7-submit:hover {
+    cursor: pointer;
+}
+
+.wpcf7-submit {
+    color: var(--colorGray);
+    font-family: var(--familyYuMincho);
+    font-size: var(--fontMax18Min16);
+    font-weight: 400;
+    letter-spacing: 0.2em;
+}
+
+.wpcf7-spinner {
+    display: none !important;
+}
+
+.wpcf7-not-valid-tip {
+    margin-top: 8px;
+}
+
+.contact__text,
+.contact__time--text {
+    color: var(--colorGray);
+    font-family: var(--familyYuMincho);
+    font-size: var(--fontMax20Min18);
+    font-weight: 400;
+}
+
+.contact__time--inner {
+    display: grid;
+    gap: 51px 0;
+}
+
+.contact__time--grop {
+    display: grid;
+    grid-template-columns: 240px auto;
+}
+
+.contact__time--column p {
+    color: var(--colorGray);
+    display: flex;
+    font-family: var(--familyYuMincho);
+    font-size: var(--fontMax20Min18);
+    font-weight: 400;
+    gap: 20px;
+}
+
+.contact__text {
+    font-weight: 700;
+}
+
+.contact__time--text {
+    margin-bottom: 40px;
+}
+
+.form__number--inner p {
+    align-items: center;
+    color: var(--colorGray);
+    display: grid;
+    font-family: var(--familyYuMincho);
+    font-size: var(--fontMax20Min18);
+    font-weight: 400;
+    gap: 10px;
+    grid-template-columns: 30% auto;
+}
+.form__num--column {
+    display: grid;
+    grid-template-columns: 240px auto;
+}
+
+.confirm__clear {
+    display: none;
+}
+
+@media screen and (max-width: 1400px) {
+    /* .wpcf7-textarea {
+  max-width: 563px;
+} */
+
+    .form {
+        padding-top: 200px;
+    }
+
+    .form__lead.is-thanks {
+        margin-bottom: 240px;
+    }
+
+    .form__box {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .form {
+        padding-top: 120px;
+    }
+
+    .form__lead {
+        margin-top: 40px;
+        text-align: start;
+    }
+
+    .form__lead.is-thanks {
+        margin-bottom: 60px;
+    }
+
+    .form__row p,
+    .formConfirm .form__row p {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .form__tel--column {
+        gap: 20px;
+        width: 100%;
+    }
+    .form__tel--column label:not(:last-child)::after {
+        content: "";
+        height: 1px;
+        position: absolute;
+        right: -15px;
+        top: 25px;
+        transform: translateY(-50%);
+        width: 10px;
+    }
+    .wpcf7-form {
+        row-gap: 25px;
+    }
+
+    .wpcf7-submit.confirm__submit {
+        margin-top: 40px;
+    }
+
+    .contact__time--grop {
+        grid-template-columns: 1fr;
+    }
+
+    .contact__time--column p {
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .form__num--column {
+        grid-template-columns: 1fr;
+    }
+
+    .form__number--inner p {
+        margin-top: 20px;
+    }
+
+    .form__confirm--select {
+        margin-bottom: 26px;
+    }
+}

@@ -1,0 +1,29 @@
+.subtitle__container {
+    display: grid;
+    row-gap: 4px;
+}
+
+.subtitle__container h2 {
+    color: var(--colorBlack);
+    font-family: var(--familyCormorant);
+    font-size: 49px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.subtitle__container p {
+    color: var(--colorBlack);
+    font-family: var(--familyYuMincho);
+    font-size: var(--fontMax17Min15);
+    font-weight: 600;
+    letter-spacing: 0.108em;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.special .subtitle__container h2,
+.special .subtitle__container p {
+    color: #fff;
+}

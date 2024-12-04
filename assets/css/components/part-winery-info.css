@@ -1,0 +1,266 @@
+.wineryInfo {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1080px;
+  padding-top: 14.1vw;
+}
+
+@media screen and (min-width: 1920px) {
+  .wineryInfo {
+    padding-top: 270px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wineryInfo {
+    padding-top: 80px;
+  }
+}
+
+.wineryBox {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 51% auto;
+}
+
+@media screen and (min-width: 1920px) {
+  .wineryBox {
+    gap: 105px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wineryBox {
+    gap: 40px;
+    grid-template-columns: 1fr;
+  }
+}
+
+.wineryName {
+  align-items: center;
+  display: flex;
+  font-family: var(--familyShipporiMincho);
+  font-size: var(--fontMax39Min28);
+  font-weight: 600;
+  letter-spacing: .01em;
+}
+
+@media screen and (max-width: 1025px) {
+  .wineryName {
+    align-items: start;
+    flex-direction: column;
+  }
+}
+
+.wineryAddress {
+  font-size: var(--fontMax18Min16);
+  font-weight: 400;
+  line-height: 1;
+}
+
+@media screen and (max-width: 1025px) {
+  .wineryAddress {
+    margin: 20px 0 0 0;
+  }
+}
+
+.wineryInfo__text {
+  font-family: var(--familyYuMincho);
+  font-size: var(--fontMax16Min14);
+  font-weight: 300;
+  line-height: 2.22;
+  margin-top: 55px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryInfo__text {
+    margin-top: 30px;
+  }
+}
+
+.wineryInfo__text:not(:first-of-type) {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryInfo__text:not(:first-of-type) {
+    margin-top: 20px;
+  }
+}
+
+.wineryInfo__sns {
+  color: #707070;
+  font-family: var(--familyYuGothic);
+  font-size: var(--fontMax18Min16);
+  font-weight: bold;
+  letter-spacing: .05em;
+  line-height: 1.26;
+  margin-top: 60px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryInfo__sns {
+    margin-top: 30px;
+  }
+}
+
+.wineryInfo__sns--box {
+  align-items: center;
+  display: flex;
+  gap: 19px;
+  justify-content: center;
+  margin-top: 26px;
+}
+
+@media screen and (max-width: 1025px) {
+  .wineryInfo__sns--box {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wineryInfo__sns--box {
+    margin-top: 18px;
+  }
+}
+
+.wineryInfo__sns--list {
+  border: 1px solid #707070;
+  max-width: 308px;
+  padding: 17px 20px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryInfo__sns--list {
+    max-width: 290px;
+    padding: 10px 20px;
+  }
+}
+
+.wineryInfo__sns--link {
+  align-items: center;
+  display: flex;
+  gap: 22px;
+}
+
+.wineryInfo__sns--facebook {
+  height: 61px;
+  width: 61px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryInfo__sns--facebook {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.wineryInfo__sns--insta {
+  height: 54px;
+  width: 54px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryInfo__sns--insta {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.wineryInfo__sns--text {
+  color: #707070;
+  font-family: var(--familyShipporiMincho);
+  font-size: var(--fontMax20Min18);
+  font-weight: bold;
+  letter-spacing: .02em;
+  line-height: 1.5;
+}
+
+.wineryRight {
+  max-width: 705px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryRight {
+    max-width: 100%;
+    order: 1;
+  }
+
+  .wineryLeft {
+    order: 2;
+  }
+}
+
+.wineryInfo__imgBox {
+  display: grid;
+  gap: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryInfo__imgBox {
+    gap: 10px;
+  }
+}
+
+.wineryInfo__imgBox.first__wrap {
+  grid-template-columns: 64.4% auto;
+  max-height: 316px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryInfo__imgBox.first__wrap {
+    grid-template-columns: 63.9% auto;
+  }
+}
+
+.wineryInfo__imgBox.second__wrap {
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryInfo__imgBox.second__wrap {
+    margin-top: 10px;
+  }
+}
+
+.wineryInfo__imgLast {
+  margin-top: 15px;
+}
+
+.wineryInfo__imgLast img {
+  aspect-ratio: 487 / 193;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryInfo__imgLast {
+    margin-top: 10px;
+  }
+}
+
+.yamagashiNavi {
+  display: block;
+  left: 50%;
+  margin-top: 85px;
+  max-width: 728px;
+  position: relative;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .yamagashiNavi {
+    margin-top: 30px;
+  }
+}
+
+.banner__menu {
+  display: block;
+  margin: 85px auto 0;
+  max-width: 728px;
+  width: 100%;
+}

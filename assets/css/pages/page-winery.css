@@ -1,0 +1,466 @@
+.kumamotoWinery {
+  margin-bottom: 160px;
+}
+
+.kikukaWinery {
+  margin-bottom: 190px;
+}
+
+@media screen and (max-width: 767px) {
+  .kumamotoWinery {
+    margin-bottom: 60px;
+  }
+
+  .kikukaWinery {
+    margin-bottom: 60px;
+  }
+}
+
+.wineryAccess {
+  padding-top: 207px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryAccess {
+    padding-top: 50px;
+  }
+}
+
+.wineryAccess__group {
+  text-align: center;
+}
+
+.wineryAccess__title {
+  font-family: var(--familyCormorantGaramond);
+  font-size: var(--fontMax49Min38);
+  font-weight: 600;
+  letter-spacing: .079em;
+  line-height: 1.2;
+}
+
+.wineryAccess__text {
+  font-family: var(--familyYuMincho);
+  font-size: var(--fontMax18Min16);
+  font-weight: 600;
+  letter-spacing: .108em;
+  line-height: 1.2;
+}
+
+.wineryAccess__name {
+  font-family: var(--familyYuMincho);
+  font-size: var(--fontMax39Min28);
+  font-weight: 400;
+  letter-spacing: .1em;
+  line-height: 2.44;
+  margin-top: 90px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryAccess__name {
+    margin-top: 20px;
+  }
+}
+
+.wineryAccess__address {
+  font-family: var(--familyYuMincho);
+  font-size: var(--fontMax18Min16);
+  font-weight: 300;
+  line-height: 2.22;
+  margin-top: 40px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryAccess__address {
+    margin-top: 20px;
+  }
+}
+
+.wineryAccess__tel {
+  font-family: var(--familyYuMincho);
+  font-size: var(--fontMax27Min18);
+  font-weight: 600;
+  letter-spacing: .02em;
+  line-height: 2.22;
+  text-align: center;
+}
+
+.wineryAccess__wrap {
+  column-gap: 21px;
+  display: flex;
+  font-family: var(--familyNotoSans);
+  font-size: var(--fontMax18Min16);
+  font-weight: 300;
+  letter-spacing: .1em;
+  line-height: 1.22;
+  margin: 0 auto;
+  max-width: 708px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryAccess__wrap {
+    flex-direction: column;
+  }
+}
+
+.wineryAccess__wrap:first-of-type {
+  margin-top: 55px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryAccess__wrap:first-of-type {
+    margin-top: 25px;
+  }
+}
+
+.wineryAccess__contents {
+  min-width: 108px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryAccess__contents {
+    max-width: 100%;
+    min-width: unset;
+    text-align: center;
+  }
+}
+
+.wineryAccess__hours {
+  line-height: 1.39;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryAccess__hours {
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+.wineryAccess__wrap:nth-of-type(2) {
+  margin-top: 20px;
+}
+
+.wineryAccess__map {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.wineryAccess__map iframe {
+  height: 620px;
+  /* max-width: 845px; */
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryAccess__map {
+    margin-top: 35px;
+  }
+
+  .wineryAccess__map iframe {
+    height: 300px;
+    max-width: 845px;
+    width: 100%;
+  }
+}
+
+.wineryAccess__means {
+  display: flex;
+  font-family: var(--familyNotoSans);
+  font-size: var(--fontMax18Min16);
+  font-weight: 300;
+  letter-spacing: .1em;
+  /* gap: 45px; */
+  line-height: 1.44;
+  margin: 0 auto;
+  max-width: 845px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryAccess__means {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+.dotted-line {
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  width: 100%;
+}
+.dotted-line::before {
+  background: var(--colorBlack);
+  background: linear-gradient(90deg, var(--colorBlack) 1px, transparent 1px);
+  background-position: 0 0; /* 背景の開始位置 */
+  /* transform: translateY(-50%); */
+  background-repeat: repeat-x;
+  background-size: 3px 1px;
+  background-size: 3px 1px; /* 点のサイズと間隔を設定 */
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 1px;
+  min-width: 23px;
+  position: absolute;
+  top: 13px;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .dotted-line::before {
+    max-width: 180px;
+  }
+}
+.mt-45 {
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 767px) {
+  .mt-45 {
+    margin-top: 25px;
+  }
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.wineryAccess__means--title {
+  display: flex;
+  white-space: nowrap;
+  width: 310px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryAccess__means--title {
+    width: 100%;
+  }
+}
+
+.wineryAccess__bas {
+  margin: 0 auto;
+  margin-top: 70px;
+  max-width: 575px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryAccess__bas {
+    margin-top: 30px;
+  }
+}
+
+.wineryAccess__place {
+  font-family: var(--familyYuMincho);
+  font-size: var(--fontMax18Min16);
+  font-weight: 400;
+  letter-spacing: .1em;
+  line-height: 2;
+  margin-top: 90px;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryAccess__place {
+    margin-top: 30px;
+  }
+}
+
+.wineryAccess__address.kikuka__address {
+  margin-top: 0;
+}
+
+.wineryAccess__place--wrap .wineryAccess__address,
+.wineryAccess__place--wrap .wineryAccess__tel {
+  line-height: 2;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .mt-50 {
+    margin-top: 30px;
+  }
+}
+
+.mt-50 .wineryAccess__place {
+  margin-top: 0;
+}
+
+.wineryAccess__wrap.kikuka__width {
+  max-width: 370px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryAccess__wrap.kikuka__width {
+    max-width: 100%;
+  }
+}
+
+.wineryTaxi {
+  font-family: var(--familyYuMincho);
+  padding-top: 40px;
+}
+
+.wineryTaxi__title {
+  background-color: #dfdfdf;
+  font-size: var(--fontMax24Min18);
+  font-weight: 600;
+  letter-spacing: .108em;
+  line-height: 1.21;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.wineryTaxi__name {
+  font-size: var(--fontMax24Min18);
+  font-weight: 600;
+  line-height: 1.46;
+  margin-top: 28px;
+}
+
+.wineryTaxi__box {
+  align-items: center;
+  display: flex;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryTaxi__box {
+    margin-top: 20px;
+  }
+}
+
+.wineryTaxi__box--name,
+.wineryTaxi__box--text,
+.wineryTaxi__box--sentence {
+  font-size: var(--fontMax18Min16);
+  font-weight: 300;
+  line-height: 1.67;
+}
+
+.wineryTaxi__box--text {
+  margin-left: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryTaxi__box--text {
+    margin-left: 10px;
+  }
+}
+
+.wineryTaxi__box--sentence {
+  margin-left: 68px;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryTaxi__box--sentence {
+    margin-left: 0;
+  }
+}
+
+.wineryTaxi__box--name.is-wi72 {
+  border-right: 1px solid #707070;
+}
+
+.is-wi72 {
+  max-width: 72px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .is-wi72 {
+    max-width: 20%;
+  }
+}
+
+.is-wi260 {
+  max-width: 260px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .is-wi260 {
+    max-width: 80%;
+  }
+}
+
+.wineryTaxi__price {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.buttonTaxi {
+  /* width: 100%; */
+  background-color: #ffde17;
+  /* align-items: center; */
+  /* border: 1px solid var(--colorBase); */
+  color: var(--colorBase);
+  display: inline-block;
+  font-family: var(--familyShipporiMincho);
+  /* display: flex; */
+  font-size: 20px;
+  font-weight: 700;
+  justify-content: center;
+  /* max-width: 360px;
+	height: 60px; */
+  padding: 26px 76px 27px 126px;
+  position: relative;
+}
+.buttonTaxi::before {
+  background: url(../../images/winery/img__taxi.png) no-repeat center center / cover;
+  content: "";
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 120px;
+}
+.buttonTaxi::after {
+  background: url(../../images/icons/icon-chevron-right_black.svg) no-repeat center
+  center / cover;
+  content: "";
+  height: 19.51px;
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 9.76px;
+}
+
+@media screen and (max-width: 767px) {
+  .buttonTaxi {
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 16px 44px 17px 90px;
+  }
+  .buttonTaxi::before {
+    height: 80px;
+    width: 80px;
+  }
+  .buttonTaxi::after {
+    height: 12px;
+    width: 7px;
+  }
+  /* .wineryTaxi__price {
+    margin-top: 20px;
+  } */
+}
+
+.for-sp .wineryTaxi__box {
+  flex-direction: column;
+}
+
+.winerTaxiSp__box {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.for-sp .wineryTaxi__box .wineryTaxi__box--sentence {
+  margin-top: 20px;
+}

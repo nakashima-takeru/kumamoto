@@ -1,0 +1,75 @@
+.wineryTopImg {
+  margin-top: -32px;
+}
+
+@media screen and (max-width: 785px) {
+  .wineryTopImg {
+    margin-top: -46px;
+  }
+}
+
+.wineryTopImg__box {
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .wineryTopImg__box {
+    height: 580px;
+  }
+
+  .wineryTopimg__kv {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.wineryLogo {
+  bottom: -6.82vw;
+  content: "";
+  left: 50%;
+  max-width: 1120px;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.wineryLogo__mark {
+  width: 16vw;
+}
+
+@media screen and (min-width: 1920px) {
+  .wineryLogo {
+    bottom: -131px;
+    content: "";
+    left: 50%;
+    max-width: 1120px;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+
+  .wineryLogo__mark {
+    width: 307px;
+  }
+}
+
+@media screen and (max-width: 1570px) {
+  .wineryLogo {
+    content: "";
+    left: 0;
+    max-width: unset;
+    padding-left: 20px;
+    transform: unset;
+    width: unset;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .wineryLogo {
+    bottom: -61px;
+  }
+
+  .wineryLogo__mark {
+    width: 110px;
+  }
+}

@@ -1,0 +1,83 @@
+.mosaic__tile {
+  align-items: end;
+  display: flex;
+  height: 100%;
+  justify-content: start;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.mosaic__media {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transition: 1s ease-out;
+  width: 100%;
+  z-index: -2;
+}
+
+.mosaic__filter {
+  background: rgba(68, 68, 68, 0.6);
+  height: 100%;
+  left: 0;
+  opacity: 0.57;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.mosaic__title {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-bottom: 40px;
+  padding-left: 78px;
+}
+
+.mosaic__nav--sub .mosaic__title {
+  padding-left: 42px;
+}
+
+.mosaic__title--large {
+  color: #fff;
+  font-family: var(--familyCormorant);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1;
+  opacity: 0.4;
+}
+
+.mosaic__title--small {
+  color: #fff;
+  font-family: var(--familyYuMincho);
+  font-size: var(--fontMax20Min18);
+  font-weight: 700;
+  letter-spacing: 0.173em;
+  line-height: 1.95;
+  padding-right: 15px;
+  position: relative;
+}
+
+.mosaic__title--small span {
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  height: 9px;
+  position: absolute;
+  right: 0;
+  top: 14px;
+  transform: rotate(-45deg);
+  width: 9px;
+}
+
+.mosaic__nav--sub .mosaic__title--small {
+  padding-right: 20px;
+  width: fit-content;
+}
+
+.mosaic__tile:hover img {
+  transform: scale(1.1);
+}

@@ -1,0 +1,36 @@
+:root {
+    --colorBase: #30363d;
+
+    /* Colors */
+    --colorBlack: #000;
+    --colorGray: #707070;
+    --colorRed: #b02b31;
+    --familyCormorant: "Cormorant Garamond", "Shippori Mincho", "游明朝体", "Noto Sans JP", sans-serif;
+    --familyCormorantGaramond: "Cormorant Garamond", "Shippori Mincho", "游明朝体", "Noto Sans JP", sans-serif;
+    --familyNotoSans: "Noto Sans JP", sans-serif;
+    --familyNotoSerifJP: "Noto Serif JP", serif;
+    --familyRoboto: "Roboto", "Noto Sans JP", sans-serif;
+    --familyShipporiMincho: "Shippori Mincho", "游明朝体", "Noto Sans JP", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "MS Gothic", "MS PGothic", sans-serif;
+    --familyYuGothic: "Yu Gothic", "YuGothic", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "MS Gothic", "MS PGothic", sans-serif;
+
+    /* Families */
+    --familyYuMincho: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    --fontMax13Min11: clamp(0.688rem, 0.657rem + 0.13vw, 0.813rem);
+    --fontMax15Min13: clamp(0.813rem, 0.782rem + 0.13vw, 0.938rem);
+    --fontMax16Min14: clamp(0.875rem, 0.845rem + 0.13vw, 1rem);
+    --fontMax17Min15: clamp(0.938rem, 0.907rem + 0.13vw, 1.063rem);
+    --fontMax18Min16: clamp(1rem, 0.97rem + 0.13vw, 1.125rem);
+    --fontMax20Min18: clamp(1.125rem, 1.095rem + 0.13vw, 1.25rem);
+    --fontMax22Min18: clamp(1.125rem, 1.064rem + 0.26vw, 1.375rem);
+    --fontMax24Min18: clamp(1.125rem, 1.034rem + 0.39vw, 1.5rem);
+
+    /* Font Size clamp: https: //min-max-calculator.9elements.com/ */
+    --fontMax25Min20: clamp(1.25rem, 1.174rem + 0.32vw, 1.563rem);
+    --fontMax25Min20: clamp(1.25rem, 1.174rem + 0.32vw, 1.563rem);
+    --fontMax27Min18: clamp(1.125rem, 0.988rem + 0.58vw, 1.688rem);
+    --fontMax30Min20: clamp(1.25rem, 1.098rem + 0.65vw, 1.875rem);
+    --fontMax39Min28: clamp(1.75rem, 1.583rem + 0.71vw, 2.438rem);
+    --fontMax44Min30: clamp(1.875rem, 1.663rem + 0.91vw, 2.75rem);
+    --fontMax49Min38: clamp(2.375rem, 2.208rem + 0.71vw, 3.063rem);
+    --fontMax60Min40: clamp(2.5rem, 2.197rem + 1.29vw, 3.75rem);
+}
